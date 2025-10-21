@@ -8,6 +8,7 @@ public class RollingBallMover : MonoBehaviour
     void Start()
     {
         Debug.Log("Привет проверка сохранений");
+        Debug.Log("Все работает");
     }
 
     // Update is called once per frame
