@@ -7,7 +7,7 @@ public class RollingBallMover : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Ghbdtn");
+        Debug.Log("Привет");
     }
 
     // Update is called once per frame
