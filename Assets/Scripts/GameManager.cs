@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
         _timeLeft = _limitSeconds;
         _isRunning = true;
 
-        Debug.Log($"Игра началась! Собрано монет: {_totalCoins}. Время {_limitSeconds} cек.");
+        Debug.Log($"Игра началась! Всего на уровне монет: {_totalCoins}. Время {_limitSeconds} cек.");
     }
 
     private void Update()
@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
         if (_isRunning == false) return;
 
         _timeLeft -= Time.deltaTime;
-        Debug.Log($"Осталось времени: {_timeLeft:0.00} сек");
+        Debug.Log($"Осталось времени: {_timeLeft:0.0} сек");
 
         if (_timeLeft <= 0)
         {
